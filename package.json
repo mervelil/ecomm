@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "hmr": "nodemon index.js",
+    "nodemon": "npm run hmr"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "handlebars": "^4.7.8",
+    "mime-types": "^2.1.35",
+    "mongodb": "6.2",
+    "mongoose": "^7.6.1",
+    "path": "^0.12.7",
+    "url": "^0.11.3"
+  },
+  "description": ""
+}
